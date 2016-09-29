@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
 rm dotfiles.zip
 git archive -o dotfiles.zip HEAD
 git stage dotfiles.zip
