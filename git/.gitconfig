@@ -14,7 +14,7 @@
 	ci = commit
 [push]
 	default = simple
-	followTags = true
+	followTags = false
 [fetch]
 	prune = true
 [color]
@@ -40,8 +40,4 @@
 [grep]
 	lineNumber = true
 [help]
-	autocorrect = 1
-[difftool]
-	prompt = false
-[mergetool]
-	prompt = false
+	autocorrect = 30
