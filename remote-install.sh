@@ -6,6 +6,8 @@
 if [ -z "$CMD" ]; then
   echo "No curl or wget available. Aborting."
 else
+  echo "Cleaning up previous installation"
+  rm -r "$HOME/.dotfiles"
   echo "Installing dotfiles"
   mkdir -p "$HOME/.dotfiles" && \
   eval "$CMD https://github.com/konrad-czajka/dotfiles/tarball/master | tar -xzv -C ~/.dotfiles --strip-components=1 --exclude='{.gitignore}'"
