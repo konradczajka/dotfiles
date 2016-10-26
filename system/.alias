@@ -1,5 +1,16 @@
-alias l="ls -la"       # List in long format, include dotfiles
+alias l="ls -la"
 alias ld="ls -ld */"   # List in long format, only directories
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+alias _="sudo"
+alias g="git"
+alias v="vim"
+alias rr="rm -rf"
+alias json="json -c"
+
+alias tree="tree -A"
+alias treed="tree -d"
+alias tree1="tree -d -L 1"
+alias tree2="tree -d -L 2"
