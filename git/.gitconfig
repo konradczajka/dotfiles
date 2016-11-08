@@ -11,7 +11,7 @@
         a = add
 	co = checkout
 	st = status
-	cp = cherrypick
+	cp = cherry-pick
 	c = commit
         ca = commit -a
         cm = commit -m
