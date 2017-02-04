@@ -15,3 +15,6 @@ wget https://github.com/powerline/fonts/tarball/master -O /tmp/fonts/archive.tar
 tar -xvf /tmp/fonts/archive.tar.gz -C /tmp/fonts --strip-components=1 --exclude='{.gitignore}'
 sudo /tmp/fonts/install.sh
 rm -r /tmp/fonts
+
+cp .zshrc ~
+
