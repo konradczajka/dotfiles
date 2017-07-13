@@ -10,6 +10,7 @@ alias h="history"
 alias v="vim"
 alias rr="rm -rf"
 alias json="python -m json.tool"
+alias doc="docker-compose"
 
 alias tree="tree -A"
 alias treed="tree -d"
