@@ -23,7 +23,7 @@
         ll = log --stat --abbrev-commit
         lc = shortlog --summary --numbered           # List contributors
 [push]
-	default = simple
+	default = current
 	followTags = false
 [fetch]
 	prune = true
@@ -65,3 +65,5 @@
         #                     │        │            └─ date (relative)
         #                     │        └─ decorations (branch, heads or tags)
         #                     └─ hash (abbreviated)
+[branch]
+	autosetupmerge = true
