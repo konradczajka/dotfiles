@@ -1,12 +1,12 @@
 #!/bin/bash
 echo Installing Zzh
-#sudo apt-get install -y zsh
+sudo apt-get install -y zsh
 
 echo Changing default shell
-#chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 echo Installing Oh My Zsh
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo Installing Powerline fonts
 rm -r /tmp/fonts
