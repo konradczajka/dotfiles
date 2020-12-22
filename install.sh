@@ -10,6 +10,7 @@ rm ~/.dotfiles_dir
 rm ~/.bash_profile
 rm ~/.gitconfig
 rm ~/.gitignore_global
+rm ~/.vimrc
 
 # Dotfiles sources location
 echo $DOTFILES_DIR >> ~/.dotfiles_dir
@@ -18,3 +19,4 @@ echo $DOTFILES_DIR >> ~/.dotfiles_dir
 ln -sfv "$DOTFILES_DIR/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/system/.vimrc" ~
