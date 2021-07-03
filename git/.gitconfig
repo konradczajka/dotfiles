@@ -1,5 +1,6 @@
 [user]
 	name = Konrad Czajka
+	email = konrad.czajka@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
