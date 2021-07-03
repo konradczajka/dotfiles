@@ -1,3 +1,4 @@
+alias ls="exa"
 alias l="ls -la"
 alias ld="ls -ld */"   # List in long format, only directories
 alias ..="cd .."
