@@ -67,3 +67,5 @@
         #                     └─ hash (abbreviated)
 [branch]
 	autosetupmerge = true
+[init]
+	defaultBranch = main
